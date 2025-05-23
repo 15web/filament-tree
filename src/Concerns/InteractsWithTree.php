@@ -22,4 +22,9 @@ trait InteractsWithTree
     {
         return null;
     }
+
+    public function getModelLabel(): ?string
+    {
+        return null;
+    }
 }
